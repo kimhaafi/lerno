@@ -1,4 +1,4 @@
-import math
+import numpy as np
 
 def Logistic(z):
-    return 1 / (1 + math.exp(-z))
+    return 1 / (1 + np.exp(-z))

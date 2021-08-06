@@ -1,4 +1,4 @@
-import math
+import numpy as np
 
 def Hyperbolic(z):
-    return (math.exp(z) - math.exp(z)) / (math.exp(z) + math.exp(z))
+    return (np.exp(z) - np.exp(z)) / (np.exp(z) + np.exp(z))
