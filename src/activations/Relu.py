@@ -1,2 +1,7 @@
+import numpy as np
+
 def Relu(x):
-    return x if x > 0 else 0
+    zero_array = np.zeros(x.shape, dtype=x.dtype)
+    result = np.maximum(x, zero_array)
+    
+    return result
